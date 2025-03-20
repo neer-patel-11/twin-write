@@ -1,0 +1,4 @@
+consumer :- docker exec -it kafka kafka-console-consumer --topic executed-queries --bootstrap-server localhost:9092 --from-beginning
+
+
+empty queue :- docker exec -it kafka kafka-topics --delete --topic executed-queries --bootstrap-server localhost:9092
