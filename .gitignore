@@ -1,4 +1,4 @@
-./producer/.env
-./consumer/.env
-./api/.env
-./cmd.txt
+producer/.env
+consumer/.env
+api/.env
+cmd.txt
